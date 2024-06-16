@@ -32,7 +32,7 @@ main.container {
   opacity: 0px;
 }
 
-.navbar .search-bar {
+.search-bar {
   display: flex;
   align-items: center;
   width: 297px;
@@ -47,7 +47,7 @@ main.container {
   border: 1px solid #F2F2F2;
 }
 
-.search-bar .add-location {
+.add-location {
   margin-left: 15px;
   border: none;
   outline: none;
@@ -64,7 +64,7 @@ main.container {
   cursor: pointer;
 }
 
-.search-bar .add-guests {
+.add-guests {
   margin-left: 15px;
   border: none;
   outline: none;
@@ -79,13 +79,13 @@ main.container {
   cursor: pointer;
 }
 
-input.add-guests:hover {
+.add-guests:hover {
   color: #333333;
   font-family: 'Mulish', sans-serif;
   font-weight: 400;
 }
 
-.search-bar .divider {
+.divider {
   margin-left: 15px;
   height: 55px;
   top: 32px;
@@ -93,7 +93,7 @@ input.add-guests:hover {
   border: 1px solid #F2F2F2;
 }
 
-.navbar .btn-search {
+.btn-search {
   background-color: #fff;
   color: #EB5757;
   border: none;
@@ -146,14 +146,14 @@ header span {
   row-gap: 40px;
 }
 
-div .card {
+.stays-grid .card {
   width: 395px;
   border: none;
   overflow: hidden;
 
 }
 
-div .card-img {
+.stays-grid .card-img {
   width: 395px;
   height: 269px;
   object-fit: cover;
@@ -161,18 +161,18 @@ div .card-img {
   padding: 0 3px;
 }
 
-div.card-body {
+.stays-grid .card-body {
   padding-top: 20px;
 }
 
-.card-info {
+.stays-grid .card-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 12px;
 }
 
-.superhost {
+.stays-grid .superhost {
   width: 100px;
   height: 28px;
   border-radius: 12px;
@@ -208,7 +208,7 @@ div.card-body {
   color: #4F4F4F;
 }
 
-div .card-title {
+.card-title {
   width: 393px;
   height: 20px;
   font-family: 'Montserrat', sans-serif;
